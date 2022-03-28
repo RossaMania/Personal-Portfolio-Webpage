@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ross Clettenberg</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,14 +15,29 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+  <div>
+    <nav id="navbar">
+      <ul class="links-list">
+        <a href="#welcome-section" class="nav-link"><li>Welcome!</li></a>
+        <a href="#skills" class="nav-link"><li>Skills!</li></a>
+        <a href="#projects" class="nav-link"><li>Projects!</li></a>
+        <a href="#contact-me" class="nav-link"><li>Contact!</li></a>
+      </ul>
+  </nav>
+  </div>
+  
     <div id="welcome-section" class="top-container">
+      <div>
         <img class="top-cloud" src="images/cloud.png" alt="top-cloud-image">
+      </div>
         <h1>I'm Ross.</h1>
         <h2>A cool dude.</h2>
-        <div></div>
+        <div>
         <img class="bottom-cloud" src="images/cloud.png" alt="bottom-cloud-image">
-        <div></div>
+      </div>
+      <div>
         <img src="images/mountain.png" alt="mountain-image">
+      </div>    
     </div>
     <div class="middle-container">
         <div class="profile">
@@ -31,7 +46,7 @@
           <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
         </div>
         <hr>
-        <div class="skills">
+        <div id="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
             <img class="pepper" src="images/chillies.png" alt="chilli-pepper">
@@ -46,8 +61,15 @@
           </div>
           <br>
     </div>
+    <hr>
+    <section id="projects">
+      <h2>My Projects.</h2>
+      <div class="projects-grid">
+
+      </div>
+    </section>
         <hr>
-        <div class="contact-me">
+        <div id="contact-me">
           <h2>Get In Touch</h2>
           <h3>Lorem ipsum dolor sit amet, non elit.</h3>
           <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
