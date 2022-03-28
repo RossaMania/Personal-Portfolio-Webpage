@@ -1,0 +1,134 @@
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Indie Flower", Georgia, Times, "Times New Roman", serif;
+}
+
+.btn {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #EAF6F6;
+    font-family: 'Playfair Display', Tahoma,sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.computer {
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.contact-me {
+ padding-bottom: 50px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+h1 {
+    color: #66BFBF;
+    margin-top: 50px auto 0 auto;
+    font-size: 500%;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Playfair Display', Tahoma,sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+
+p {
+    color: #221F3B;
+    font-family: 'Playfair Display', Tahoma,sans-serif;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.pepper {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: start;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    height: 100%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 600px;
+    top:50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
