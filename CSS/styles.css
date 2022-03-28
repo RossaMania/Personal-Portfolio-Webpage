@@ -139,7 +139,7 @@ p {
 }
 
 #navbar {
-  margin: 0;
+  margin-top: 0px;
   width: 100vw;
   position: fixed;
   background-color: #66bfbf;
@@ -164,4 +164,8 @@ p {
 }
 
 .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
