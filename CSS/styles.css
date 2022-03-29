@@ -166,6 +166,46 @@ p {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  gap: 5px;
+  grid-auto-rows: minmax(75px, auto);
+}
+
+@media (max-width: 540px) {
+  .top-cloud {
+    display: none;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+
+  .mountain {
+    height: 299px;
+    width: 400px;
+  }
+
+  #navbar {
+    margin-top: 0px;
+    width: 100vw;
+    position: fixed;
+    background-color: #66bfbf;
+    z-index: 2;
+  }
+
+  .links-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-weight: normal;
+    padding: 0px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ebebeb;
+    text-decoration: none;
+  }
 }
